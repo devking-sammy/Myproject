@@ -782,3 +782,99 @@
         /* section4 Media Query */
 @media (max-width:710px){
 }
+
+        /* Hero Section5 */
+.section5{
+    background-image: url('./images/Sect5-img.png');
+    background-size: cover;
+    background-position: center;
+}
+.sect5-side1{
+    text-align: center;
+    margin-bottom: 4em;
+}
+.sect5-side1{
+    text-wrap: wrap;
+}        
+.sect5-side1 h1{
+    font-size: 2em;
+    font-weight: 700;
+    text-wrap: wrap;
+}
+.sect5{
+    width: 90%;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+        /* Hero section6 */
+.sect6{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.sect6-side1{
+    text-wrap: wrap;
+    margin-top: 6em;
+    text-align: center;
+}  
+.sect6-side1 h1{
+    font-weight: 700;
+} 
+.sect6-side2{
+    margin-top: 4em;
+} 
+.sect6-side2 nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    border-bottom: 1px solid black;
+}  
+.sect6-side2 nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.sect6-side2 nav li a:hover{
+    background-color: #1433D6;
+    color: white;
+}
+.sect6-side2 nav li a:active{
+    background-color: gray;
+    color: black;
+}
+.sect6-link{
+    background-color: rgba(128, 128, 128, 0.37);
+}
+.sect6-side3{
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    margin-top: 4em;
+}
+.sect6-side1-inner{
+    width: 900px;
+    height: 280px;
+    background-color: black;
+    background-image: url('./images/sect6-img.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sect6-side2-inner h1{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.sect6-side2-inner span a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.sect6-side2-inner span a:hover{
+    border-bottom: 2px solid black;\
+}
