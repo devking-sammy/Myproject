@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    box-shadow: 0px 0px 4px 0px;
+}
+nav{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+.leftside{
+    display: flex;
+    gap: 0.6em;
+}
+.leftside li{
+    list-style-type: none;
+}
+.header2-logo{
+    text-decoration: none;
+    color: #0069FF;
+}
+.txt{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.rightside{
+    display: flex;
+    gap: 1em;
+}
+.rightside li{
+    list-style-type: none;
+}
+        /* header media query */
+@media (max-width:466px){
+    .txt{
+        display: none;
+    }
+    .rightside-txt{
+        display: none;
+    }
+}
+            /* Hero section */
+.hero-section1{
+    background-color: #F3F5F9;
+    
+}
+.hero-sect1{
+    display: flex;
+}
+.logo1{
+    width: 70px;
+}
+.herosect1-leftside{
+    padding: 100px 80px;
+    margin-top: 1em;
+    height: 100vh;
+    width: 50%;
+}
+form{
+    height: 600px;
+    width: 480px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    box-shadow: 0px 0px 4px 0px gray;
+    border-radius: 20px;
+}
+form h1{
+    color: #031B69;
+    font-weight: 600;
+}
+form label{
+    font-size: 1.2em;
+    color: #0769FF;
+    font-weight: 400;
+    margin-bottom: 0.4em;
+    font-family: "JetBrains Mono", monospace;
+}
+form input{
+    width: 90%;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+}
+form input:hover{
+    border: 1px solid #0769FF;
+    transition: 1s;
+}
+hr{
+    width: 90%;
+    color: black;
+    
+}
+.btnss{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0061EB;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.btnss:hover{
+    background-color: #3387FF;
+    transition: 1s;
+}
+.btnss2{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    background-color: white;
+    border: thin solid gray;
+}
+.btnss2:hover{
+    background-color: #0061EB;
+    color: white;
+    transition: 1s;
+    border: none;
+}
+.google-logo{
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.github-logo{
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.leftside-link{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #0769FF;
+}
+.leftside-link:hover{
+    text-decoration: none;
+}
+.herosect1-rightside{
+    text-wrap: wrap;
+    margin-top: 1em;
+    height: 150vh;
+    width: 50%;
+    background-image: url('../images/login-img2.png');
+    background-position: center;
+    background-size: cover;
+    padding: 100px 150px;
+}
+.herosect1-rightside h1{
+    color: white;
+    font-weight: 600;
+}
+.herosect1-rightside p{
+    color: white;
+    font-weight: 500;
+}
+.btnss-link{
+    padding: 8px 18px;
+    background-color: white;
+    color: #0769FF;
+    font-weight: 600;
+    border: 2px solid #0769FF;
+}
+.btnss-link:hover{
+    background-color: #0769FF;
+    color: white;
+    transition: 1s;
+}
+        /* Hero section media query */
+@media (max-width:1122px){
+    .hero-sect1{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .herosect1-leftside{
+        width: 100%;
+        height: 150vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    .herosect1-rightside{
+        width: 100%;
+        padding: 20px 50px;
+    }
+  
+}
+@media (max-width:506px){
+    form{
+        width: 380px;
+    } 
+}
+@media (max-width:400px){
+    form{
+        width: 280px;
+    }
+}
