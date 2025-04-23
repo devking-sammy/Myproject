@@ -349,3 +349,29 @@
     color: white;
     transition: 1s;
 }
+        /* Footer Section */
+.footer-section{
+    background-color: #F9FAFE;
+}
+.footer-sect{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.footer-list{
+    line-height: 2em;
+}
+.footer-list h4{
+    font-size: 1em;
+    font-weight: 700;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #344f80;
+    font-weight: 400;
+}
+.footer-list li a:hover{
+    color: black;
+}
