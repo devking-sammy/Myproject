@@ -76,6 +76,8 @@
     text-decoration: none;
     color: #070c2aa4;
     font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 20px;
 }
 .header2-link:hover{
     background-color:#EFF2FB ;
@@ -83,8 +85,9 @@
 .fa-angle-down{
     font-size: 0.8em;
 }
-.fa-angle-down:hover{
+.header2-link:hover .fa-angle-down{
     transform: rotate(180deg);
+    transition: 1s;
 }
 .nav2-rightside{
     display: flex;
