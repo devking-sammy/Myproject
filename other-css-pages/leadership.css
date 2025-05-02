@@ -58,7 +58,7 @@
     border-bottom: thin solid rgba(128, 128, 128, 0.514);
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 9999;
     background-color: white;
     top: -8px;
 }
@@ -408,7 +408,7 @@ a{
     width: 100%;
     border-bottom: thin solid rgba(128, 128, 128, 0.514);
     position: fixed;
-    /* z-index: 999; */
+    z-index: 999;
 }
 .nav3{
     width: 80%;
